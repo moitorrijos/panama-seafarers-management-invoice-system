@@ -47,10 +47,13 @@
   font-size: 0.9rem;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 610px) {
   .container {
     background: none;
   }
+}
+
+@media (max-width: 320px) {
   .loginForm input[type="submit"] {
     width: 100%;
   }
