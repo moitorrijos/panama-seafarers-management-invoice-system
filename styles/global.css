@@ -8,3 +8,9 @@ body {
   color: #284A67;
   line-height: 1.5;
 }
+
+@media (max-width: 320px) {
+  body {
+    font-size: 14px;
+  }
+}

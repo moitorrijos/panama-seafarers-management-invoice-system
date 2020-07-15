@@ -15,7 +15,7 @@
 }
 
 .login .logo {
-  padding: 4rem 2rem;
+  padding: 3rem 10%;
 }
 
 .login h1 {
@@ -24,7 +24,7 @@
 }
 
 .loginForm {
-  padding: 2rem 4rem;
+  padding: 2rem 10%;
 }
 
 .loginForm label {
@@ -47,6 +47,15 @@
   font-size: 0.9rem;
 }
 
+@media (max-width: 320px) {
+  .container {
+    background: none;
+  }
+  .loginForm input[type="submit"] {
+    width: 100%;
+  }
+}
+
 .login p {
-  padding: 2rem 4rem;
+  padding: 2rem 10%;
 }
